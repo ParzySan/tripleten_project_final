@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ee1515; /* azul Pokémon */
+  color: white;
+  padding: 1rem 2rem;
+  width: 1050px;
+  border-radius: 50px;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.header__img {
+  width: 90px;
+  height: 90px;
+}
+
+.header__title {
+  font-family: "Press Start 2P";
+  font-size: 25px;
+}
+
+.header__nav a {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.header__nav a:hover {
+  text-decoration: underline;
+}

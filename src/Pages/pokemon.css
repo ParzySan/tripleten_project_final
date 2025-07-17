@@ -1,0 +1,25 @@
+.pokemon__detail {
+  width: 100vw;
+}
+
+.pokemon__name {
+  font-family: "Press Start 2P";
+  color: blueviolet;
+  font-size: 80px;
+  margin-bottom: 0;
+}
+.pokemon__img {
+  width: 50vw;
+  height: 70vh;
+}
+
+.pokemon__peso,
+.pokemon__altura {
+  font-size: 80px;
+  padding: 0;
+  margin-top: 0;
+}
+
+.pokemon__peso {
+  margin-bottom: 0;
+}
