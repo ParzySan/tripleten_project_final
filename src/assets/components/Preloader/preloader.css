@@ -1,0 +1,27 @@
+.pokeball__spin {
+  animation: spin 1s linear infinite;
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.preloader {
+  text-align: center;
+  padding: 2rem;
+}
+
+.loading__text {
+  font-family: "Press Start 2P";
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-top: 1rem;
+}

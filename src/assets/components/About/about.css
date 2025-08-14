@@ -1,0 +1,16 @@
+.about {
+  width: 1250px;
+  height: 1250px;
+  text-align: center;
+  align-content: center;
+  margin-top: -80px;
+}
+
+.about__title {
+  font-family: "Press Start 2P";
+  font-size: 100px;
+}
+
+.about__text {
+  font-size: 50px;
+}

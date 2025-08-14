@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card__container {
+  width: 1250px;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  font-family: "Press Start 2P";
+  font-size: 10px;
+  margin-top: 0px;
+  left: 0;
+}

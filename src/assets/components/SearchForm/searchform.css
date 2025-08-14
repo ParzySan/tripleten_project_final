@@ -1,0 +1,16 @@
+.search__form {
+  margin-top: -50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.search__button {
+  color: rgb(255, 255, 255);
+  font-family: "Press Start 2P";
+  font-size: 15px;
+  margin-left: 10px;
+  background-color: #ee1515;
+}
